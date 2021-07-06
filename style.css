@@ -44,13 +44,13 @@ body{
 @media only screen and (max-width: 490px){
 
 	.arrow-icon{
-	    width: 53px
+	    width: 53px;
 	}
 
 	#number-display{
 		font-size: 4rem;
 		margin: -0.1em 0.53em 0.1em 0.5em;
-	    padding: 0em 0.2em;
+	  padding: 0em 0.2em;
 	}
 }
 

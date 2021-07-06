@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+	<title>A Modified Counter App</title>
+</head>
+<body>
+
+<main class="content">
+	<h1>A Modified Counter App</h1>
+
+	<div class="col-number">
+		<img src="https://img.icons8.com/material-rounded/96/000000/down.png" class="arrow-icon arrow-left" id="decrease-btn" />
+		<h3 id="number-display"></h3>
+		<img src="https://img.icons8.com/material-rounded/96/000000/up.png" class="arrow-icon arrow-right" id="increase-btn" />
+	</div>
+	
+	<div class= "col">
+		<p id="incremental-display"></p>
+		<button class="btn btn-reset" id="reset-btn">reset</button>
+		<h4>You have a preferred start point? Enter an integer below 👇</h4>
+	</div>
+		
+	<div>
+		<input type="number" name="integer-number" id="number-input" placeholder="Enter an integer" />
+		<button class="btn btn-submit" id="submit-btn">enter</button>
+	</div>
+
+	<div class= "col">
+		<h4>Interested in having a different incremental value apart from one(1)? Input it here👇</h4>
+	</div>
+
+	<div>
+		<input type="number" name="incremental-number" id="incremental-input" placeholder="Enter a number" />
+		<button class="btn btn-change" id="change-btn">change</button>
+	</div>
+</main>
+
+<footer>
+	<a href="https://icons8.com/icon/gqoc5GPavCpv/down">Down icon by Icons8</a>
+</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
